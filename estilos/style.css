@@ -311,9 +311,7 @@ body{
 @media screen and (max-width: 768px) {
     /* Estilos específicos para telas com largura de 768px ou menos */
 
-.cabeçalho{
-    
-}
+
 .botões{
     display: none;
 }
@@ -364,7 +362,6 @@ body{
 }
 
 .banner{
-   margin-top: -30px;
    margin-bottom: 20px;
    padding-top: 10px;
 }
@@ -376,7 +373,8 @@ body{
 
 .banner__titulo,
 .talentos__titulo,
-.banner__titulo{
+.banner__titulo,
+.rodape__titulo{
     font-size: 1.5rem;
 }
 
@@ -384,7 +382,7 @@ body{
 .talentos__texto,
 .nome__desenvolvedora,
 .vagas__setor,
-.vagas__descrição{
+.rodape__texto{
     font-size: 1rem;
 }
 
@@ -409,27 +407,44 @@ body{
     margin-top:200px;
 }
 
-.talentos__imagem{
+.talentos__imagem{    
     width: 95%;
-    margin-top: -150px;
+    height: 150px;
 }   
 
-.vagas{
-    margin-top: -150px;
-}
 
 .vagas__item{
    align-items: center;
    padding: 30px;
+ 
 }
 
 .informações{
-    margin-top: 40px;
+    margin-top: 70px;
+    
+    
+}
+.rodape{
+    padding: 40px 0; 
+    margin-bottom: 10px;
 }
 
+
 .vagas__texto,
-.vagas__salario{
+.vagas__salario,
+.rodape__direitos{
+    font-size: 0.8rem;
+}
+
+.rodape__email::placeholder{
     font-size: 0.7rem;
 }
+
+.vagas__descrição{
+    font-size: 0.75rem;
+}
+
+
+
         
 }
