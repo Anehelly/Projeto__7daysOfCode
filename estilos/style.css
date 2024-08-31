@@ -305,6 +305,59 @@ body{
     color: #98A2B3;
 }
 
+.botões__mobile{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     /* Estilos específicos para telas com largura de 768px ou menos */
+
+.botões{
+    display: none;
+}
+
+.cabeçalho__mobile{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+.botões__mobile{
+    display: block;
+}
+    
+.cabeçalho{    
+    flex-direction: column;      
+    padding: 5px 5px;  
+}
+
+.logo{      
+    font-size: 1rem;  
+    justify-content: center;
+    margin-left: 5px;   
+}
+
+.nav__link{
+    padding: 10px;    
+    font-size: 0.8rem;     
+}
+.botões{  
+    gap: 4px;    
+}
+
+.entrar{   
+    font-size: 0.8rem;
+}
+
+.cadastrar{
+    font-size: 0.8rem;   
+    padding: 6px; 
+}
+
+.opções{
+    justify-content: space-evenly;
+    background-color:#ced2d91a;
+    border-radius:2px ;
+    margin-top: 5px;
+}
 }
