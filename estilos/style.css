@@ -15,9 +15,7 @@
     --azul-escuro: #101828;
     --fundo-banner: #FDF8F8;
     --borda-vagas: #EAECF0;
-    --fonte-principal: "Inter", sans-serif;
-  
-
+    --fonte-principal: "Inter", sans-serif; 
 }
 
 body{
@@ -49,7 +47,8 @@ body{
 .nav__link{
     color: var(--cinza-texto);
     text-decoration: none;     
-    padding: 30px;       
+    padding: 30px; 
+    font-size: 1.5rem;      
 }
 
 .nav__link:hover{
@@ -304,4 +303,8 @@ body{
     font-size:1rem;
     line-height: 24px;
     color: #98A2B3;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos específicos para telas com largura de 768px ou menos */
 }
