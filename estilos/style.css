@@ -24,7 +24,7 @@ body{
     font-family: var(--fonte-principal);
     font-weight: 500;
     line-height: 24px;
-    font-size: 16px; 
+    font-size: 1rem; 
 }
 
 .cabeçalho{
@@ -35,7 +35,7 @@ body{
 
 .logo{
     display: flex;       
-    font-size: 18px;    
+    font-size: 1.125rem;   
     color: var(--cinza-logo);
     align-items: center;
     gap: 5px;   
@@ -46,13 +46,13 @@ body{
     align-items: center;    
 }
 
-.cabeçalho__opções__link{
+.nav__link{
     color: var(--cinza-texto);
     text-decoration: none;     
     padding: 30px;       
 }
 
-.cabeçalho__opções__link:hover{
+.nav__link:hover{
     color: var(--vermelho-botão);
 }
 
@@ -98,14 +98,14 @@ body{
 
 .banner__titulo {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3rem; 
     color: var(--azul-escuro);
     line-height: 60px;
 }
 
 .banner__texto {
     font-weight: 400; 
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 30px;
     color: var(--cinza-texto);
 }
@@ -128,13 +128,13 @@ body{
 
 .metricas__titulo{
     font-weight: 600;
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 72px;
     color: var(--vermelho-botão);
 }
 
 .metricas__descrição{
-    font-size: 18px;
+    font-size: 1.125rem; ;
     line-height: 28px;
     color:var(--azul-escuro);
 }
@@ -158,7 +158,7 @@ body{
 }
 
 .talentos__destaque {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 20px;
     color: var(--vermelho-botão);
     background-color: #eae6e6;
@@ -170,14 +170,14 @@ body{
 }
 .talentos__titulo{
     font-weight: 600;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 44px;
     color: var(--azul-escuro);
 }
 
 .talentos__texto{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     color: var(--cinza-texto);
 }
@@ -202,10 +202,11 @@ body{
 .vagas__lista {
     list-style-type: none;
     padding-left: 0;
+    margin-left: 20px;
 }
 
 .vagas__item {
-    margin-left: 20px;
+    
     margin-bottom: 20px;
     border-radius: 16px;
     border: 1px solid #EAECF0;
@@ -220,13 +221,13 @@ body{
 }
 
 .vagas__setor {
-    font-size: 20px;
+    font-size: 1.25rem; 
     line-height: 30px;
     color: var(--azul-escuro);
 }
 
 .vagas__descrição {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 28px;
     color: var(--azul-escuro);
     padding-bottom: 15px;
@@ -234,7 +235,7 @@ body{
 
 .vagas__texto,
 .vagas__salario {
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cinza-texto);
 }
 
@@ -258,4 +259,49 @@ body{
 
 .nome__desenvolvedora{
     margin-bottom: -15px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;   
+    padding: 70px 0; 
+    gap: 24px;
+    width: 100%;
+    min-height: 250px; 
+    background-color: #F9FAFB;
+    margin-top: 50px;
+}
+.rodape__titulo{
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 44px;
+    color: var(--azul-escuro);
+}
+
+.rodape__texto{
+    font-weight: 400;
+    font-size: 1.25rem; 
+    line-height: 30px;
+    color: var(--cinza-texto);
+}
+
+.rodape__email{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: var(--cinza-texto);
+    margin-right: 10px;
+}
+
+.rodape__email::placeholder{
+    padding: 6px;
+}
+
+.rodape__direitos{
+    font-weight: 400;
+    font-size:1rem;
+    line-height: 24px;
+    color: #98A2B3;
 }
