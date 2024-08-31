@@ -204,8 +204,7 @@ body{
     margin-left: 20px;
 }
 
-.vagas__item {
-    
+.vagas__item {    
     margin-bottom: 20px;
     border-radius: 16px;
     border: 1px solid #EAECF0;
@@ -312,6 +311,9 @@ body{
 @media screen and (max-width: 768px) {
     /* Estilos específicos para telas com largura de 768px ou menos */
 
+.cabeçalho{
+    
+}
 .botões{
     display: none;
 }
@@ -360,4 +362,74 @@ body{
     border-radius:2px ;
     margin-top: 5px;
 }
+
+.banner{
+   margin-top: -30px;
+   margin-bottom: 20px;
+   padding-top: 10px;
+}
+.banner__destaque,
+.talentos__destaque,
+.banner__destaque{
+    font-size: 0.8rem;
+}
+
+.banner__titulo,
+.talentos__titulo,
+.banner__titulo{
+    font-size: 1.5rem;
+}
+
+.banner__texto,
+.talentos__texto,
+.nome__desenvolvedora,
+.vagas__setor,
+.vagas__descrição{
+    font-size: 1rem;
+}
+
+.metricas__titulo{
+    font-size: 3rem;
+}   
+
+.metricas__descrição{
+    font-size: 1.5rem;
+}
+
+.metricas__texto{
+    font-size: 1rem;
+}
+
+.metricas__lista{
+    margin-top: 100px;    
+    flex-direction: column;
+}
+
+.talentos{
+    margin-top:200px;
+}
+
+.talentos__imagem{
+    width: 95%;
+    margin-top: -150px;
+}   
+
+.vagas{
+    margin-top: -150px;
+}
+
+.vagas__item{
+   align-items: center;
+   padding: 30px;
+}
+
+.informações{
+    margin-top: 40px;
+}
+
+.vagas__texto,
+.vagas__salario{
+    font-size: 0.7rem;
+}
+        
 }
