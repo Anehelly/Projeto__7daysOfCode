@@ -13,6 +13,8 @@
     --cinza-logo: #3A404E;
     --cinza-texto: #667085;
     --azul-escuro: #101828;
+    --fundo-banner: #FDF8F8;
+    --borda-vagas: #EAECF0;
     --fonte-principal: "Inter", sans-serif;
   
 
@@ -186,4 +188,74 @@ body{
     height: 400px;
     margin: auto;
     
+}
+.vagas {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    max-width: 50%;
+    min-height: 358px;
+    gap: 32px;
+}
+
+.vagas__lista {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.vagas__item {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
+}
+
+.vagas__detalhes {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.vagas__setor {
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--azul-escuro);
+}
+
+.vagas__descrição {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--azul-escuro);
+    padding-bottom: 15px;
+}
+
+.vagas__texto,
+.vagas__salario {
+    font-size: 16px;
+    color: var(--cinza-texto);
+}
+
+.informações{
+    display: flex;
+    background-color: var(--fundo-banner);
+    width: 90%;
+    height: 404px;
+    margin: auto;
+    border-radius: 16px;
+    gap: 32px;
+    
+}
+.banner__imagem{
+    position: relative;
+    width: 56px;
+    height: 56px;
+    margin: auto;
+    margin-bottom: -10px;
+}
+
+.nome__desenvolvedora{
+    margin-bottom: -15px;
 }
