@@ -23,6 +23,7 @@ body{
     font-weight: 500;
     line-height: 24px;
     font-size: 1rem; 
+    
 }
 
 .cabeçalho{
@@ -443,8 +444,5 @@ body{
 .vagas__descrição{
     font-size: 0.75rem;
 }
-
-
-
         
 }
